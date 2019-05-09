@@ -1,0 +1,116 @@
+body {
+    background-color: #ff0000;
+    font-size: 62.5%;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        background-color: rgba(0,0,0,0.3);
+    }
+}
+
+.navbar.scrolled {
+    background-color: #000 !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar-toggle {
+    border: #000 1px solid;
+}
+
+.icon-bar {
+    background-color: #000;
+}
+
+.jumbotron {
+    height: 100vh;
+    padding-top: 25vh;
+}
+
+.links {
+    margin-top: 5rem;
+}
+@media screen and (max-width: 480px) {
+    .links {
+        margin-top: 10rem;
+    }
+}
+
+.intro-links {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 20%;
+    margin: 3rem 1.5rem;
+    text-decoration: none;
+    padding: 1.0rem 1.5rem;
+    color: #000;
+    border: 2px solid red;
+}
+
+@media screen and (max-width: 480px) {
+    .intro-links {
+        width: 70%;
+        margin: 1.2rem;
+    }
+}
+
+.headings, .sub-headings {
+    font-weight: 650;
+}
+
+.detail-img {
+    margin-top: 3rem;
+}
+
+.details {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+ul {
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.detail-links {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    width: 30%;
+    margin: 5rem 1.5rem 4rem 1.5rem;
+    text-decoration: none;
+    padding: 1.0rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.detail-links:hover {
+    text-decoration: none;
+}
+
+.row {
+    background-color: #fff;
+    border-top: #000 1rem solid;
+}
+
+/* show reverse by horizontal row */
+.row-reverse { 
+    display: flex; 
+    flex-direction: row-reverse; 
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
