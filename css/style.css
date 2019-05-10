@@ -18,7 +18,7 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: #000 !important;
+    background-color: rgb(238, 231, 210) !important;
     transition: background-color 200ms linear;
 }
 
@@ -64,8 +64,14 @@ body {
     }
 }
 
-.headings, .sub-headings {
+.headings {
+    background-color: rgb(231, 230, 180);
     font-weight: 650;
+    padding: 1.5rem;
+}
+
+.sub-headings {
+    font-weight: 540;
 }
 
 @media screen and (min-width: 768px) {
@@ -107,6 +113,8 @@ ul {
     .detail-links {
         width: 40%;
         border-radius: 1rem;
+        padding: 1.0rem 0.2rem;
+        margin: 5rem 0.5rem 4rem 0.5rem;
     }
 }
 
@@ -118,8 +126,22 @@ ul {
     display: inline-block;
     text-align: center;
     background-color: #fff;
-    border-top: #000 1rem solid;
-    max-width: 1000px;    
+    margin-top: 3rem;
+    max-width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    /* show reverse by horizontal row */
+    .row {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* show reverse by horizontal row */
+    .row {
+        max-width: 98%;
+    }
 }
 
 @media screen and (min-width: 768px) {

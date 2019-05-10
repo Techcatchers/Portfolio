@@ -7,3 +7,11 @@ document.addEventListener('scroll', () => {
         nav.classList.remove('scrolled');
     }
 });
+
+// Live Projects
+(() => {
+    fetch('./data/live_projects.json')
+    .then(res => res.json())
+    .then(response => live_projects(response))
+    .catch(err => console.log(err));
+})()

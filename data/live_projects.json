@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Doodle Live: Host Live Meetings", 
+        "intro": "Collaborate with unlimited users to share your ideas and take your teamwork to the Next Level. Work together anywhere, anytime!",
+        "showcase": "",
+        "features": [
+            "Host Meetings with unlimited users.",
+            "Sketch & Share.",
+            "Live Chat Integration.",
+            "Share notes with our rich text editor.",
+            "Live code with Automatic Syntax Highlighting."
+        ],
+        "technologies": [
+            "Node JS",
+            "Express JS",
+            "React JS",
+            "Sockets IO"
+        ],
+        "links": [
+            {"name": "Live Demo", "link": "https://doodlelive.herokuapp.com/"},
+            {"name": "GitHub Project", "link": "https://github.com/chingu-voyages/v8-bears-team-05/"}       
+        ]
+    },
+    {
+        "name": "Buddies: Your Personal Assistant", 
+        "intro": "A WhatsApp chatbot designed for the users with 20+ features by integrating several APIs, Libraries, and Datasets.",
+        "showcase": "",
+        "features": [
+            "Get latest news every morning directly in your inbox.",
+            "Users can set reminders and tasks so that they get reminded at their set Date and time.",
+            "Subscribe to services like Jokes, facts, pickup lines, quotes and many more to receive these daily.",
+            "Users can get lyrics for songs and definition of a word directly via Buddies.",
+            "We often forget to drink water at times when we are busy, Buddies will remind users to drink water every 2 hours if they subscribe for water notifications.",
+            "And just to add a cherry on the cake we have points and levels in Buddies where our users can compete with their friends against their points and levels."
+        ],
+        "technologies": [
+            "Python", "Javascript", "SQLite3", "Selenium", "Web Scraping"
+        ],
+        "links": [
+            {"name": "Live Demo", "link": "http://bit.ly/chatwithbuddies"},
+            {"name": "YouTube Video", "link": "https://www.youtube.com/watch?v=iy4ubzKB9iE"}
+        ]
+    },
+    {
+        "name": "Lyrics Extractor: Python Library", 
+        "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
+        "showcase": "",
+        "features": [
+            "Artist name is not required while passing in the song name.",
+            "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
+            "It fetches, extracts and returns the song's title and song lyrics from various websites autocorrecting the song names for the misspelled names along the way."
+        ],
+        "technologies": [
+            "Python", "Web Scraping", "Google APIs"
+        ],
+        "links": [
+            {"name": "PyPI Official Page", "link": "https://pypi.org/project/lyrics-extractor/"},
+            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/PyLyrics-Extractor"}
+        ]
+    },
+    {
+        "name": "Lyrics Extractor: Python Library", 
+        "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
+        "showcase": "",
+        "features": [
+            "Artist name is not required while passing in the song name.",
+            "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
+            "It fetches, extracts and returns the song's title and song lyrics from various websites autocorrecting the song names for the misspelled names along the way."
+        ],
+        "technologies": [
+            "Python", "Web Scraping", "Google APIs"
+        ],
+        "links": [
+            {"name": "PyPI Official Page", "link": "https://pypi.org/project/lyrics-extractor/"},
+            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/PyLyrics-Extractor"}
+        ]
+    },
+    {
+        "name": "Lyrics Extractor: Python Library", 
+        "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
+        "showcase": "",
+        "features": [
+            "Artist name is not required while passing in the song name.",
+            "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
+            "It fetches, extracts and returns the song's title and song lyrics from various websites autocorrecting the song names for the misspelled names along the way."
+        ],
+        "technologies": [
+            "Python", "Web Scraping", "Google APIs"
+        ],
+        "links": [
+            {"name": "PyPI Official Page", "link": "https://pypi.org/project/lyrics-extractor/"},
+            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/PyLyrics-Extractor"}
+        ]
+    }
+]
