@@ -6,7 +6,7 @@ const live_projects = data => {
         output += `
         <div class="row ${i % 2 == 1 ? 'row-reverse' : ''}">
     <div class="col-md-5 col-sm-5">
-      <img src="https://via.placeholder.com/300x212" alt="" class="detail-img">
+      <img src="https://via.placeholder.com/375x212" alt="" class="detail-img">
     </div>
     <div class="col-md-7 col-sm-7">
       <h2 class="sub-headings">${data[i].name}</h2>

@@ -2,7 +2,7 @@
     {
         "name": "Doodle Live: Host Live Meetings", 
         "intro": "Collaborate with unlimited users to share your ideas and take your teamwork to the Next Level. Work together anywhere, anytime!",
-        "showcase": "",
+        "showcase": "<iframe width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/1lMAnxmsgKw\"><\/iframe>",
         "features": [
             "Host Meetings with unlimited users.",
             "Sketch & Share.",
@@ -59,37 +59,20 @@
         ]
     },
     {
-        "name": "Lyrics Extractor: Python Library", 
-        "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
+        "name": "GitHub Finder", 
+        "intro": "The GitHub Finder web app fetches the user profiles & repos from GitHub API and displays it in a well-formatted manner.",
         "showcase": "",
         "features": [
-            "Artist name is not required while passing in the song name.",
-            "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
-            "It fetches, extracts and returns the song's title and song lyrics from various websites autocorrecting the song names for the misspelled names along the way."
+            "It searches for user profiles as you type but reduces unnecessary API calls using setTimeout() method. So API is only called when you have stopped typing your desired keyword.",
+            "It fetches the 5 latest repos with stars, watchers, forks and other useful information to show the user's summary of GitHub.",
+            "It takes care of all the edge cases for the API info returned."
         ],
         "technologies": [
-            "Python", "Web Scraping", "Google APIs"
+            "HTML/CSS", "BootStrap 4","Javascript ES6", "GitHub API"
         ],
         "links": [
-            {"name": "PyPI Official Page", "link": "https://pypi.org/project/lyrics-extractor/"},
-            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/PyLyrics-Extractor"}
-        ]
-    },
-    {
-        "name": "Lyrics Extractor: Python Library", 
-        "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
-        "showcase": "",
-        "features": [
-            "Artist name is not required while passing in the song name.",
-            "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
-            "It fetches, extracts and returns the song's title and song lyrics from various websites autocorrecting the song names for the misspelled names along the way."
-        ],
-        "technologies": [
-            "Python", "Web Scraping", "Google APIs"
-        ],
-        "links": [
-            {"name": "PyPI Official Page", "link": "https://pypi.org/project/lyrics-extractor/"},
-            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/PyLyrics-Extractor"}
+            {"name": "Live Demo", "link": "https://techcatchers.github.io/GitHub-Finder/"},
+            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/GitHub-Finder"}
         ]
     }
 ]
