@@ -2,7 +2,7 @@
     {
         "name": "Doodle Live: Host Live Meetings", 
         "intro": "Collaborate with unlimited users to share your ideas and take your teamwork to the Next Level. Work together anywhere, anytime!",
-        "showcase": "<iframe width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/1lMAnxmsgKw\"><\/iframe>",
+        "showcase": "<iframe class=\"detail-vid\" width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/1lMAnxmsgKw\"><\/iframe>",
         "features": [
             "Host Meetings with unlimited users.",
             "Sketch & Share.",
@@ -24,7 +24,7 @@
     {
         "name": "Buddies: Your Personal Assistant", 
         "intro": "A WhatsApp chatbot designed for the users with 20+ features by integrating several APIs, Libraries, and Datasets.",
-        "showcase": "",
+        "showcase": "<iframe class=\"detail-vid\" width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/iy4ubzKB9iE\"><\/iframe>",
         "features": [
             "Get latest news every morning directly in your inbox.",
             "Users can set reminders and tasks so that they get reminded at their set Date and time.",
@@ -44,7 +44,7 @@
     {
         "name": "Lyrics Extractor: Python Library", 
         "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
-        "showcase": "",
+        "showcase": "<img src=\"https://via.placeholder.com/375x212\" class=\"detail-img\" alt=\"\" \">",
         "features": [
             "Artist name is not required while passing in the song name.",
             "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
@@ -61,7 +61,7 @@
     {
         "name": "GitHub Finder", 
         "intro": "The GitHub Finder web app fetches the user profiles & repos from GitHub API and displays it in a well-formatted manner.",
-        "showcase": "",
+        "showcase": "<img src=\"https://via.placeholder.com/375x212\" class=\"detail-img\" alt=\"\" \">",
         "features": [
             "It searches for user profiles as you type but reduces unnecessary API calls using setTimeout() method. So API is only called when you have stopped typing your desired keyword.",
             "It fetches the 5 latest repos with stars, watchers, forks and other useful information to show the user's summary of GitHub.",
