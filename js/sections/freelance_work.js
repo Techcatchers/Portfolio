@@ -1,5 +1,5 @@
 // Live Projects Section
-const liveProjects = data => {
+const freelanceWork = data => {
     let output = "";
 
     for (let i = 0; i < data.length; i++) {
@@ -11,7 +11,7 @@ const liveProjects = data => {
     <div class="col-md-7 col-sm-7">
       <h2 class="sub-headings">${data[i].name}</h2>
       <p class="details">${data[i].intro}</p>
-      <p class="details"><strong>Main Features</strong><br>
+      <p class="details"><strong>About the Project</strong><br>
       <ul>`
 
         data[i].features.forEach(feature => {
@@ -31,12 +31,11 @@ const liveProjects = data => {
       });
       
       output += `</p>
-      <a href="${data[i].links[0].link}" class="detail-links btn-success" target="_blank">${data[i].links[0].name}</a>
-      <a href="${data[i].links[1].link}" class="detail-links btn-primary" target="_blank">${data[i].links[1].name}</a>
+      <a href="${data[i].links[0].link}" class="detail-links single btn-danger" target="_blank">${data[i].links[0].name}</a>
     </div>
   </div>
         `
     }
 
-    document.querySelector('.live-project-section').insertAdjacentHTML('beforeend', output);
+    document.querySelector('.freelance-work-section').insertAdjacentHTML('beforeend', output);
 }

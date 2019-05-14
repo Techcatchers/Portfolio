@@ -12,6 +12,14 @@ document.addEventListener('scroll', () => {
 (() => {
     fetch('./data/live_projects.json')
     .then(res => res.json())
-    .then(response => live_projects(response))
+    .then(response => liveProjects(response))
     .catch(err => console.log(err));
-})()
+})();
+
+// Freelance Work
+(() => {
+    fetch('./data/freelance_work.json')
+    .then(res => res.json())
+    .then(response => freelanceWork(response))
+    .catch(err => console.log(err));
+})();

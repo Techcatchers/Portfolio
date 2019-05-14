@@ -175,6 +175,11 @@ ul {
     }
 }
 
+/* Single Button extends & overwrites detail links */
+.single {
+    width: 60%;
+}
+
 .detail-links:hover {
     text-decoration: none;
 }
@@ -183,7 +188,8 @@ ul {
     display: inline-block;
     text-align: center;
     background-color: #fff;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
     width: 90%;
     box-shadow: 3px 2px 5px rgb(121, 54, 9);
 }
