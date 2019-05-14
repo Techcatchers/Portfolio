@@ -184,6 +184,14 @@ ul {
     text-decoration: none;
 }
 
+.web-template {
+    max-width: 100%;
+    height: auto;
+    width: 40rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 .row {
     display: inline-block;
     text-align: center;

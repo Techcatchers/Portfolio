@@ -37,5 +37,22 @@ const freelanceWork = data => {
         `
     }
 
+    // Add Web Templates section
+    output += `
+    <div class="row">
+    <h2 class="sub-headings"><strong>Web Templates</strong></h2>
+    <div class="col-md-4 col-sm-4">
+      <img src="https://via.placeholder.com/300x212" alt="" class="web-template">
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <img src="https://via.placeholder.com/300x212" alt="" class="web-template">
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <img src="https://via.placeholder.com/300x212" alt="" class="web-template">
+    </div>
+
+    </div>
+    `
+
     document.querySelector('.freelance-work-section').insertAdjacentHTML('beforeend', output);
 }
