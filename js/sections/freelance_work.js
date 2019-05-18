@@ -42,13 +42,13 @@ const freelanceWork = data => {
     <div class="row">
     <h2 class="sub-headings"><strong>Web Templates</strong></h2>
     <div class="col-md-4 col-sm-4">
-      <img src="https://via.placeholder.com/300x212" alt="" class="web-template">
+      <img src="../images/photography.gif" alt="" class="web-template">
     </div>
     <div class="col-md-4 col-sm-4">
-      <img src="https://via.placeholder.com/300x212" alt="" class="web-template">
+      <img src="../images/login.jpg" alt="" class="web-template">
     </div>
     <div class="col-md-4 col-sm-4">
-      <img src="https://via.placeholder.com/300x212" alt="" class="web-template">
+      <img src="../images/PSDhtml.gif" alt="" class="web-template">
     </div>
 
     </div>
