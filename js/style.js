@@ -39,34 +39,42 @@ document.addEventListener('scroll', () => {
 // Skills Animation
 setTimeout(() => {
     const targets = document.querySelectorAll('.progress-bar');
-
+    
     // configure the intersection observer instance
     const intersectionObserverOptions = {
         root: null,
         rootMargin: '150px',
         threshold: 1.0
-      }
-
-    targets.forEach(target => {
-  
-      const onIntersection = (entries) => {
-        //   console.log(entries)
-          entries.forEach(entry => {
-          target.classList.toggle('skill-visible', entry.intersectionRatio > 0);
-            
-          // Are we in viewport?
-          if (entry.intersectionRatio > 0) {
-            // Stop watching 
-            observer.unobserve(entry.target);
-          }
-        });
-      }
-
-      const observer = new IntersectionObserver(onIntersection, intersectionObserverOptions);
+    }
     
-      // provice the observer with a target
-      observer.observe(target);
+    targets.forEach(target => {
+        
+        const onIntersection = (entries) => {
+            //   console.log(entries)
+            entries.forEach(entry => {
+                target.classList.toggle('skill-visible', entry.intersectionRatio > 0);
+            
+                // Are we in viewport?
+                if (entry.intersectionRatio > 0) {
+                    // Stop watching 
+                    observer.unobserve(entry.target);
+                }
+            });
+        }
+        
+        const observer = new IntersectionObserver(onIntersection, intersectionObserverOptions);
+        
+        // provice the observer with a target
+        observer.observe(target);
     });
     
 }, 500);
 
+
+// My Blogs Section
+(() => {
+    fetch('./data/blogs.json')
+    .then(res => res.json())
+    .then(response => blogs(response))
+    .catch(err => console.log(err));
+})();

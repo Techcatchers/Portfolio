@@ -2,7 +2,7 @@
     {
         "name": "Dr. Assist: Hospital Management System", 
         "intro": "A massive VBA application created for a Hospital as a Hospital Management system to run as Multi-user Application connected to a single Database. The process starts from creating receipts --> create admission form --> Printing of both: Receipts and Admission form --> Fetching generated data --> Printing & convert Data to PDF --> Transferring the Patients --> Looking up Patient auto-generated account for all paid and unpaid bills --> Filling Discharge Form and discharging the patient only after all balances are cleared. All data are Backed up automatically when the application was closed at the end of the day.",
-        "showcase": "<img src=\"../images/hos_man.png\" class=\"detail-img\" alt=\"\" \">",
+        "showcase": "<img src=\"../images/hos_man.png\" class=\"img detail-img\" alt=\"\" \">",
         "features": [
             "Users can check Payment History of a particular admitted Patient with all the necessary details available in just 1-click.",
             "The patient is discharges only when the Outstanding balance gets 0.",
@@ -20,7 +20,7 @@
     {
         "name": "Tales For Life: Hindi Stories Website", 
         "intro": "Developed a WordPress website and worked on SEO optimisation for a client.",
-        "showcase": "<img src=\"../images/talesforlife.png\" class=\"detail-img\" alt=\"\" \">",
+        "showcase": "<img src=\"../images/talesforlife.png\" class=\"img detail-img\" alt=\"\" \">",
         "features": [
             "Developed a customized WordPress website for publishing Hindi Stories and deployed it on HostGator.",
             "Added HTTPS security using Let’s Encrypt and ensured external resources are delivered securely.",
