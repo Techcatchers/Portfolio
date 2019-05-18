@@ -210,6 +210,7 @@ ul {
     }
 }
 
+/* Adds Extra Padding in between skill cols */
 .skill-sep {
     padding: 0 3rem;
 }
