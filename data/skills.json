@@ -1,0 +1,46 @@
+[
+    {
+        "skill": "HTML/CSS", 
+        "level": 95
+    },
+    {
+        "skill": "SASS", 
+        "level": 40
+    },
+    {
+        "skill": "Javascript ES6", 
+        "level": 70
+    },
+    {
+        "skill": "Node Js", 
+        "level": 90
+    },
+    {
+        "skill": "Express Js", 
+        "level": 70
+    },
+    {
+        "skill": "React Js", 
+        "level": 30
+    },
+    {
+        "skill": "Python", 
+        "level": 80
+    },
+    {
+        "skill": "VBA", 
+        "level": 85
+    },
+    {
+        "skill": "Wordpress", 
+        "level": 90
+    },
+    {
+        "skill": "MySQL", 
+        "level": 75
+    },
+    {
+        "skill": "Git", 
+        "level": 95
+    }
+]

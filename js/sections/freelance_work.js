@@ -1,4 +1,4 @@
-// Live Projects Section
+// Freelance Work Section
 const freelanceWork = data => {
     let output = "";
 

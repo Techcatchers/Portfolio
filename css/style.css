@@ -192,6 +192,45 @@ ul {
     margin-bottom: 3rem;
 }
 
+.skills-section {
+    padding: 3rem 4rem;
+    text-align: left !important;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-section {
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills-section {
+        padding: 4rem 1.5rem;
+    }
+}
+
+.progress {
+    background-color: rgb(241, 231, 229);
+}
+
+.progress-bar {
+    width: 0;
+}
+
+.skill-visible {
+    animation: progress 1.5s ease-in-out forwards;
+}
+
+@keyframes progress {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } 
+
 .row {
     display: inline-block;
     text-align: center;
