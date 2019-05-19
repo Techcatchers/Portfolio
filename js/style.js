@@ -68,7 +68,7 @@ setTimeout(() => {
         observer.observe(target);
     });
     
-}, 500);
+}, 2000);
 
 
 // My Blogs Section
