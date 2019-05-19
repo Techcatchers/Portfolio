@@ -1,20 +1,38 @@
 [
     {
-        "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16acc2f5764%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16acc2f5764%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.196875%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "title": "The sun of the moon Sample",
-        "link": "",
-        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis provident quas iure incidunt doloremque aspernatur voluptates ipsam quo, neque consequuntur unde! Temporibus magni aperiam in dolores atque delectus molestias quod!"
+        "image": "https://cdn-images-1.medium.com/max/1200/1*v2_9ebOF-VCHo8q1V9kcSg.jpeg",
+        "title": "Here’s how you can make your slow Python Programs 7x faster.",
+        "link": "https://hackernoon.com/are-your-python-programs-running-slow-heres-how-you-can-make-them-7x-faster-3d6758cd3305",
+        "desc": "We all know that Python is much slower than statically-typed programming languages like C, C++, Java and some dynamic languages too like JavaScript and PHP. Let’s look at the reasons why Python is much slower compared to these languages and what can we do to increase its execution speed..."
     },
     {
-        "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16acc2f5764%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16acc2f5764%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.196875%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "title": "The sun of the moon Sample",
-        "link": "",
-        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis provident quas iure incidunt doloremque aspernatur voluptates ipsam quo, neque consequuntur unde! Temporibus magni aperiam in dolores atque delectus molestias quod!"
+        "image": "https://cdn-images-1.medium.com/max/1200/1*mYfuyqwBRIkxup8S-P-bJQ.png",
+        "title": "A Guide to Building a Multi-featured Slackbot with Python",
+        "link": "https://hackernoon.com/a-guide-to-building-a-multi-featured-slackbot-with-python-73ea5394acc",
+        "desc": "Chatbots are being used almost everywhere today from social messaging platforms to integration into websites for booking tickets, finding nearby restaurants, generating leads, buying and selling products. Some chatbots, like Ruuh by Microsoft have been able to deliver human-like conversations using artificial intelligence and deep learning..."
     },
     {
-        "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16acc2f5764%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16acc2f5764%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.196875%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "title": "The sun of the moon Sample",
-        "link": "",
-        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis provident quas iure incidunt doloremque aspernatur voluptates ipsam quo, neque consequuntur unde! Temporibus magni aperiam in dolores atque delectus molestias quod!"
+        "image": "https://cdn-images-1.medium.com/max/1600/1*6TTimmqkaMRRBkiOTo6MBg.png",
+        "title": "My First Remote Team Exp in Chingu Voyage 8",
+        "link": "https://medium.com/chingu/my-first-remote-team-experience-in-chingu-voyage-8-3d275a30c2cd",
+        "desc": "Chingu voyage 8 comes to an end now with most of the teams finishing up their MVPs. Going from project idea to the execution in just 8 weeks is in itself an achievement for all the members of the team. There were some members who dropped out during this phase but..."
+    },
+    {
+        "image": "https://cdn-images-1.medium.com/max/1200/1*f8cpPSwnFDx00foCFfzQZA.png",
+        "title": "Python | How to shorten long URLs using Bitly API",
+        "link": "https://www.geeksforgeeks.org/python-how-to-shorten-long-urls-using-bitly-api/",
+        "desc": "Bitly is used to shorten, brand, share, or retrieve data from links programmatically. In this article, we’ll see how to shorten URLs using Bitly API. Step #1: Install Bitly API using git..."
+    },
+    {
+        "image": "./images/How-Developers-use-Python-Programming-Language.jpg",
+        "title": "Finding Mean, Median, Mode in Python without libraries",
+        "link": "https://www.geeksforgeeks.org/finding-mean-median-mode-in-python-without-libraries/",
+        "desc": "In this article, we will learn how to calculate Mean, Median and Mode with Python without using external libraries. The mean is the average of all numbers and is sometimes called the arithmetic mean..."
+    },
+    {
+        "image": "https://cdn-images-1.medium.com/max/1200/1*jtqKOIgfD5C5cz-HG3tspg.png",
+        "title": "Most Productive Keyboard Shortcuts to Master in 2019",
+        "link": "https://hackernoon.com/most-productive-keyboard-shortcuts-to-master-in-2019-5d2c51df7e9b",
+        "desc": "We often find ourselves switching our hands between our mouse or a trackpad and our keyboard. This becomes quite cumbersome to handle if you are a programmer like me or if you spend most of your time on the machine."
     }
 ]

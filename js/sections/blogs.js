@@ -6,9 +6,9 @@ const blogs = data => {
         output += `
         <div class="col-md-4 col-sm-6">
           <div class="card-box">
-            <img src="${data[i].image}" alt="" srcset="" class="img">
-            <h3 class="sub-headings"><a href="${data[i].link}">${data[i].title}</a></h3>
-            <p class="details m-4">${data[i].desc}</p>
+            <img src="${data[i].image}" alt="" srcset="" class="img" style="max-height: 180px; width: auto;">
+            <h3 class="sub-headings"><a href="${data[i].link}" target="_blank">${data[i].title}</a></h3>
+            <p class="details ellipsis m-4">${data[i].desc}</p>
           </div>
       </div>
         `
