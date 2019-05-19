@@ -377,7 +377,7 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 /* Clip path arrow for footer */
 .arrow {
     -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 0 100%, 0 60%);
-    clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 0 100%, 0 60%);
+    clip-path: polygon(50% 99%, 100% 60%, 100% 100%, 0 100%, 0 60%);
     background-color: #3C2F1D;
     height: 20rem;
     margin-top: -10rem;
@@ -392,6 +392,7 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 
 /* Add a gray background color and some padding to the footer */
 footer {
+    margin-top: -0.1rem;
     background-color: #3C2F1D;
     padding: 25px;
 }
