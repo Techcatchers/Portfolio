@@ -118,7 +118,9 @@ a:visited {
 }
 
 .intro-links:hover {
+    background-color: rgba(255,255,255,0.3);
     color: #fff;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .intro-links:visited {
@@ -306,6 +308,7 @@ ul {
     margin-top: 3rem;
     margin-bottom: 3rem;
     height: 40rem;
+    background-color: #f5efe7;
 }
 
 @media screen and (max-width: 768px) {
@@ -313,6 +316,9 @@ ul {
         height: initial;
     }
 }
+
+/* -webkit-clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%);
+clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 
 /* Text overflow ellipsis after 4 lines */
 .ellipsis {
@@ -368,8 +374,24 @@ ul {
     }
 }
 
+/* Clip path arrow for footer */
+.arrow {
+    -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 0 100%, 0 60%);
+    clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 0 100%, 0 60%);
+    background-color: #3C2F1D;
+    height: 20rem;
+    margin-top: -10rem;
+}
+
+@media screen and (max-width: 480px) {
+    .arrow {
+        height: 10rem;
+        margin-top: -5rem;
+    }
+}
+
 /* Add a gray background color and some padding to the footer */
 footer {
-    background-color: #f2f2f2;
+    background-color: #3C2F1D;
     padding: 25px;
 }
