@@ -1,38 +1,38 @@
 [
-    {
-        "image": "https://cdn-images-1.medium.com/max/1200/1*v2_9ebOF-VCHo8q1V9kcSg.jpeg",
-        "title": "Here’s how you can make your slow Python Programs 7x faster.",
-        "link": "https://hackernoon.com/are-your-python-programs-running-slow-heres-how-you-can-make-them-7x-faster-3d6758cd3305",
-        "desc": "We all know that Python is much slower than statically-typed programming languages like C, C++, Java and some dynamic languages too like JavaScript and PHP. Let’s look at the reasons why Python is much slower compared to these languages and what can we do to increase its execution speed..."
-    },
-    {
-        "image": "https://cdn-images-1.medium.com/max/1200/1*mYfuyqwBRIkxup8S-P-bJQ.png",
-        "title": "A Guide to Building a Multi-featured Slackbot with Python",
-        "link": "https://hackernoon.com/a-guide-to-building-a-multi-featured-slackbot-with-python-73ea5394acc",
-        "desc": "Chatbots are being used almost everywhere today from social messaging platforms to integration into websites for booking tickets, finding nearby restaurants, generating leads, buying and selling products. Some chatbots, like Ruuh by Microsoft have been able to deliver human-like conversations using artificial intelligence and deep learning..."
-    },
-    {
-        "image": "https://cdn-images-1.medium.com/max/1600/1*6TTimmqkaMRRBkiOTo6MBg.png",
-        "title": "My First Remote Team Exp in Chingu Voyage 8",
-        "link": "https://medium.com/chingu/my-first-remote-team-experience-in-chingu-voyage-8-3d275a30c2cd",
-        "desc": "Chingu voyage 8 comes to an end now with most of the teams finishing up their MVPs. Going from project idea to the execution in just 8 weeks is in itself an achievement for all the members of the team. There were some members who dropped out during this phase but..."
-    },
-    {
-        "image": "https://cdn-images-1.medium.com/max/1200/1*f8cpPSwnFDx00foCFfzQZA.png",
-        "title": "Python | How to shorten long URLs using Bitly API",
-        "link": "https://www.geeksforgeeks.org/python-how-to-shorten-long-urls-using-bitly-api/",
-        "desc": "Bitly is used to shorten, brand, share, or retrieve data from links programmatically. In this article, we’ll see how to shorten URLs using Bitly API. Step #1: Install Bitly API using git..."
-    },
-    {
-        "image": "./images/How-Developers-use-Python-Programming-Language.jpg",
-        "title": "Finding Mean, Median, Mode in Python without libraries",
-        "link": "https://www.geeksforgeeks.org/finding-mean-median-mode-in-python-without-libraries/",
-        "desc": "In this article, we will learn how to calculate Mean, Median and Mode with Python without using external libraries. The mean is the average of all numbers and is sometimes called the arithmetic mean..."
-    },
-    {
-        "image": "https://cdn-images-1.medium.com/max/1200/1*jtqKOIgfD5C5cz-HG3tspg.png",
-        "title": "Most Productive Keyboard Shortcuts to Master in 2019",
-        "link": "https://hackernoon.com/most-productive-keyboard-shortcuts-to-master-in-2019-5d2c51df7e9b",
-        "desc": "We often find ourselves switching our hands between our mouse or a trackpad and our keyboard. This becomes quite cumbersome to handle if you are a programmer like me or if you spend most of your time on the machine."
-    }
+  {
+    "image": "https://cdn-images-1.medium.com/max/1200/1*v2_9ebOF-VCHo8q1V9kcSg.jpeg",
+    "title": "Here’s how you can make your slow Python Programs 7x faster.",
+    "link": "https://hackernoon.com/are-your-python-programs-running-slow-heres-how-you-can-make-them-7x-faster-3d6758cd3305",
+    "desc": "We all know that Python is much slower than statically-typed programming languages like C, C++, Java and some dynamic languages too like JavaScript and PHP. Let’s look at the reasons why Python is much slower compared to these languages and what can we do to increase its execution speed..."
+  },
+  {
+    "image": "https://cdn-images-1.medium.com/max/1200/1*mYfuyqwBRIkxup8S-P-bJQ.png",
+    "title": "A Guide to Building a Multi-featured Slackbot with Python",
+    "link": "https://hackernoon.com/a-guide-to-building-a-multi-featured-slackbot-with-python-73ea5394acc",
+    "desc": "Chatbots are being used almost everywhere today from social messaging platforms to integration into websites for booking tickets, finding nearby restaurants, generating leads, buying and selling products. Some chatbots, like Ruuh by Microsoft have been able to deliver human-like conversations using artificial intelligence and deep learning..."
+  },
+  {
+    "image": "https://cdn-images-1.medium.com/max/1600/1*6TTimmqkaMRRBkiOTo6MBg.png",
+    "title": "My First Remote Team Exp in Chingu Voyage 8",
+    "link": "https://medium.com/chingu/my-first-remote-team-experience-in-chingu-voyage-8-3d275a30c2cd",
+    "desc": "Chingu voyage 8 comes to an end now with most of the teams finishing up their MVPs. Going from project idea to the execution in just 8 weeks is in itself an achievement for all the members of the team. There were some members who dropped out during this phase but..."
+  },
+  {
+    "image": "https://cdn-images-1.medium.com/max/1200/1*f8cpPSwnFDx00foCFfzQZA.png",
+    "title": "Python | How to shorten long URLs using Bitly API",
+    "link": "https://www.geeksforgeeks.org/python-how-to-shorten-long-urls-using-bitly-api/",
+    "desc": "Bitly is used to shorten, brand, share, or retrieve data from links programmatically. In this article, we’ll see how to shorten URLs using Bitly API. Step #1: Install Bitly API using git..."
+  },
+  {
+    "image": "./images/How-Developers-use-Python-Programming-Language.jpg",
+    "title": "Finding Mean, Median, Mode in Python without libraries",
+    "link": "https://www.geeksforgeeks.org/finding-mean-median-mode-in-python-without-libraries/",
+    "desc": "In this article, we will learn how to calculate Mean, Median and Mode with Python without using external libraries. The mean is the average of all numbers and is sometimes called the arithmetic mean..."
+  },
+  {
+    "image": "https://cdn-images-1.medium.com/max/1200/1*jtqKOIgfD5C5cz-HG3tspg.png",
+    "title": "Most Productive Keyboard Shortcuts to Master in 2019",
+    "link": "https://hackernoon.com/most-productive-keyboard-shortcuts-to-master-in-2019-5d2c51df7e9b",
+    "desc": "We often find ourselves switching our hands between our mouse or a trackpad and our keyboard. This becomes quite cumbersome to handle if you are a programmer like me or if you spend most of your time on the machine."
+  }
 ]

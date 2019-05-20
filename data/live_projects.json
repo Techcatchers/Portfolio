@@ -1,78 +1,91 @@
 [
-    {
-        "name": "Doodle Live: Host Live Meetings", 
-        "intro": "Collaborate with unlimited users to share your ideas and take your teamwork to the Next Level. Work together anywhere, anytime!<br><br><strong># Second best project in a global voyage. Watch Chingu facilitators talking about our project in the <a href=\"https://m.youtube.com/watch?v=mo9mFvHciMU&t=17m45s\" target=\"_blank\">Chingu Showcase Event</a>.</strong>",
-        "showcase": "<iframe class=\"detail-vid\" width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/1lMAnxmsgKw\"><\/iframe>",
-        "features": [
-            "Host Meetings with unlimited users.",
-            "Sketch & Share.",
-            "Live Chat Integration.",
-            "Share notes with our rich text editor.",
-            "Live code with Automatic Syntax Highlighting."
-        ],
-        "technologies": [
-            "Node JS",
-            "Express JS",
-            "React JS",
-            "Sockets IO"
-        ],
-        "links": [
-            {"name": "Live Demo", "link": "https://doodlelive.herokuapp.com/"},
-            {"name": "GitHub Project", "link": "https://github.com/chingu-voyages/v8-bears-team-05/"}       
-        ]
-    },
-    {
-        "name": "Buddies: Your Personal Assistant", 
-        "intro": "A WhatsApp chatbot designed for the users with 20+ features by integrating several APIs, Libraries, and Datasets.",
-        "showcase": "<iframe class=\"detail-vid\" width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/iy4ubzKB9iE\"><\/iframe>",
-        "features": [
-            "Get latest news every morning directly in your inbox.",
-            "Users can set reminders and tasks so that they get reminded at their set Date and time.",
-            "Subscribe to services like Jokes, facts, pickup lines, quotes and many more to receive these daily.",
-            "Users can get lyrics for songs and definition of a word directly via Buddies.",
-            "We often forget to drink water at times when we are busy, Buddies will remind users to drink water every 2 hours if they subscribe for water notifications.",
-            "And just to add a cherry on the cake we have points and levels in Buddies where our users can compete with their friends against their points and levels."
-        ],
-        "technologies": [
-            "Python", "Javascript", "SQLite3", "Selenium", "Web Scraping"
-        ],
-        "links": [
-            {"name": "Live Demo", "link": "http://bit.ly/chatwithbuddies"},
-            {"name": "YouTube Video", "link": "https://www.youtube.com/watch?v=iy4ubzKB9iE"}
-        ]
-    },
-    {
-        "name": "Lyrics Extractor: Python Library", 
-        "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
-        "showcase": "<img src=\"./images/py_lib.png\" class=\"img detail-img\" width=\"375\" height=\"212\" alt=\"\" \">",
-        "features": [
-            "Artist name is not required while passing in the song name.",
-            "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
-            "It fetches, extracts and returns the song's title and song lyrics from various websites autocorrecting the song names for the misspelled names along the way."
-        ],
-        "technologies": [
-            "Python", "Web Scraping", "Google APIs"
-        ],
-        "links": [
-            {"name": "PyPI Official Page", "link": "https://pypi.org/project/lyrics-extractor/"},
-            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/PyLyrics-Extractor"}
-        ]
-    },
-    {
-        "name": "GitHub Finder", 
-        "intro": "The GitHub Finder web app fetches the user profiles & repos from GitHub API and displays it in a well-formatted manner.",
-        "showcase": "<img src=\"./images/github_finder.gif\" class=\"img detail-img\" alt=\"\" \">",
-        "features": [
-            "It searches for user profiles as you type but reduces unnecessary API calls using setTimeout() method. So API is only called when you have stopped typing your desired keyword.",
-            "It fetches the 5 latest repos with stars, watchers, forks and other useful information to show the user's summary of GitHub.",
-            "It takes care of all the edge cases for the API info returned."
-        ],
-        "technologies": [
-            "HTML/CSS", "BootStrap 4","Javascript ES6", "GitHub API"
-        ],
-        "links": [
-            {"name": "Live Demo", "link": "https://techcatchers.github.io/GitHub-Finder/"},
-            {"name": "GitHub Project", "link": "https://github.com/Techcatchers/GitHub-Finder"}
-        ]
-    }
+  {
+    "name": "Doodle Live: Host Live Meetings",
+    "intro": "Collaborate with unlimited users to share your ideas and take your teamwork to the Next Level. Work together anywhere, anytime!<br><br><strong># Second best project in a global voyage. Watch Chingu facilitators talking about our project in the <a href=\"https://m.youtube.com/watch?v=mo9mFvHciMU&t=17m45s\" target=\"_blank\">Chingu Showcase Event</a>.</strong>",
+    "showcase": "<iframe class=\"detail-vid\" width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/1lMAnxmsgKw\"></iframe>",
+    "features": [
+      "Host Meetings with unlimited users.",
+      "Sketch & Share.",
+      "Live Chat Integration.",
+      "Share notes with our rich text editor.",
+      "Live code with Automatic Syntax Highlighting."
+    ],
+    "technologies": ["Node JS", "Express JS", "React JS", "Sockets IO"],
+    "links": [
+      { "name": "Live Demo", "link": "https://doodlelive.herokuapp.com/" },
+      {
+        "name": "GitHub Project",
+        "link": "https://github.com/chingu-voyages/v8-bears-team-05/"
+      }
+    ]
+  },
+  {
+    "name": "Buddies: Your Personal Assistant",
+    "intro": "A WhatsApp chatbot designed for the users with 20+ features by integrating several APIs, Libraries, and Datasets.",
+    "showcase": "<iframe class=\"detail-vid\" width=\"375\" height=\"212\" src=\"https://www.youtube.com/embed/iy4ubzKB9iE\"></iframe>",
+    "features": [
+      "Get latest news every morning directly in your inbox.",
+      "Users can set reminders and tasks so that they get reminded at their set Date and time.",
+      "Subscribe to services like Jokes, facts, pickup lines, quotes and many more to receive these daily.",
+      "Users can get lyrics for songs and definition of a word directly via Buddies.",
+      "We often forget to drink water at times when we are busy, Buddies will remind users to drink water every 2 hours if they subscribe for water notifications.",
+      "And just to add a cherry on the cake we have points and levels in Buddies where our users can compete with their friends against their points and levels."
+    ],
+    "technologies": [
+      "Python",
+      "Javascript",
+      "SQLite3",
+      "Selenium",
+      "Web Scraping"
+    ],
+    "links": [
+      { "name": "Live Demo", "link": "http://bit.ly/chatwithbuddies" },
+      {
+        "name": "YouTube Video",
+        "link": "https://www.youtube.com/watch?v=iy4ubzKB9iE"
+      }
+    ]
+  },
+  {
+    "name": "Lyrics Extractor: Python Library",
+    "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
+    "showcase": "<img src=\"./images/py_lib.png\" class=\"img detail-img\" width=\"375\" height=\"212\" alt=\"\" \">",
+    "features": [
+      "Artist name is not required while passing in the song name.",
+      "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
+      "It fetches, extracts and returns the song's title and song lyrics from various websites autocorrecting the song names for the misspelled names along the way."
+    ],
+    "technologies": ["Python", "Web Scraping", "Google APIs"],
+    "links": [
+      {
+        "name": "PyPI Official Page",
+        "link": "https://pypi.org/project/lyrics-extractor/"
+      },
+      {
+        "name": "GitHub Project",
+        "link": "https://github.com/Techcatchers/PyLyrics-Extractor"
+      }
+    ]
+  },
+  {
+    "name": "GitHub Finder",
+    "intro": "The GitHub Finder web app fetches the user profiles & repos from GitHub API and displays it in a well-formatted manner.",
+    "showcase": "<img src=\"./images/github_finder.gif\" class=\"img detail-img\" alt=\"\" \">",
+    "features": [
+      "It searches for user profiles as you type but reduces unnecessary API calls using setTimeout() method. So API is only called when you have stopped typing your desired keyword.",
+      "It fetches the 5 latest repos with stars, watchers, forks and other useful information to show the user's summary of GitHub.",
+      "It takes care of all the edge cases for the API info returned."
+    ],
+    "technologies": ["HTML/CSS", "BootStrap 4", "Javascript ES6", "GitHub API"],
+    "links": [
+      {
+        "name": "Live Demo",
+        "link": "https://techcatchers.github.io/GitHub-Finder/"
+      },
+      {
+        "name": "GitHub Project",
+        "link": "https://github.com/Techcatchers/GitHub-Finder"
+      }
+    ]
+  }
 ]

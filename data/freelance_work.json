@@ -1,38 +1,36 @@
 [
-    {
-        "name": "Dr. Assist: Hospital Management System", 
-        "intro": "A massive VBA application created for a Hospital as a Hospital Management system to run as Multi-user Application connected to a single Database. The process starts from creating receipts --> create admission form --> Printing of both: Receipts and Admission form --> Fetching generated data --> Printing & convert Data to PDF --> Transferring the Patients --> Looking up Patient auto-generated account for all paid and unpaid bills --> Filling Discharge Form and discharging the patient only after all balances are cleared. All data are Backed up automatically when the application was closed at the end of the day.",
-        "showcase": "<img src=\"./images/hos_man.png\" class=\"img detail-img\" alt=\"\" \">",
-        "features": [
-            "Users can check Payment History of a particular admitted Patient with all the necessary details available in just 1-click.",
-            "The patient is discharges only when the Outstanding balance gets 0.",
-            "Outstanding Balances are Automatically calculated for all admitted patients.", "All Data & Reports are generated Automatically and can be printed or converted to PDFs whenever required."
-        ],
-        "technologies": [
-            "VBA",
-            "MS Excel",
-            "Some Add-Ons"
-        ],
-        "links": [
-            {"name": "View Slides", "link": "https://www.slideshare.net/rishabhagrawal7798/dr-assist-hospital-management-system"}
-        ]
-    },
-    {
-        "name": "Tales For Life: Hindi Stories Website", 
-        "intro": "Developed a WordPress website and worked on SEO optimisation for a client.",
-        "showcase": "<img src=\"./images/talesforlife.png\" class=\"img detail-img\" alt=\"\" \">",
-        "features": [
-            "Developed a customized WordPress website for publishing Hindi Stories and deployed it on HostGator.",
-            "Added HTTPS security using Let’s Encrypt and ensured external resources are delivered securely.",
-            "Integrated several APIs & automated tasks to create a better interaction between the users and the webmaster.",
-            "Ranked 2nd on Google SERP for the keyword “Weekly Hindi Stories” in just 6 months by focusing only on on-page SEO with a page-load time of under 3 seconds.",
-            "Implemented Heat Maps and Advanced Analytics to get users Data and worked upon decreasing Bounce Rates and generated Leads by giving free eBooks."
-        ],
-        "technologies": [
-            "HTML/CSS", "WordPress", "PHP", "MySQL", "APIs"
-        ],
-        "links": [
-            {"name": "View Website", "link": "https://www.talesforlife.com/"}
-        ]
-    }
+  {
+    "name": "Dr. Assist: Hospital Management System",
+    "intro": "A massive VBA application created for a Hospital as a Hospital Management system to run as Multi-user Application connected to a single Database. The process starts from creating receipts --> create admission form --> Printing of both: Receipts and Admission form --> Fetching generated data --> Printing & convert Data to PDF --> Transferring the Patients --> Looking up Patient auto-generated account for all paid and unpaid bills --> Filling Discharge Form and discharging the patient only after all balances are cleared. All data are Backed up automatically when the application was closed at the end of the day.",
+    "showcase": "<img src=\"./images/hos_man.png\" class=\"img detail-img\" alt=\"\" \">",
+    "features": [
+      "Users can check Payment History of a particular admitted Patient with all the necessary details available in just 1-click.",
+      "The patient is discharges only when the Outstanding balance gets 0.",
+      "Outstanding Balances are Automatically calculated for all admitted patients.",
+      "All Data & Reports are generated Automatically and can be printed or converted to PDFs whenever required."
+    ],
+    "technologies": ["VBA", "MS Excel", "Some Add-Ons"],
+    "links": [
+      {
+        "name": "View Slides",
+        "link": "https://www.slideshare.net/rishabhagrawal7798/dr-assist-hospital-management-system"
+      }
+    ]
+  },
+  {
+    "name": "Tales For Life: Hindi Stories Website",
+    "intro": "Developed a WordPress website and worked on SEO optimisation for a client.",
+    "showcase": "<img src=\"./images/talesforlife.png\" class=\"img detail-img\" alt=\"\" \">",
+    "features": [
+      "Developed a customized WordPress website for publishing Hindi Stories and deployed it on HostGator.",
+      "Added HTTPS security using Let’s Encrypt and ensured external resources are delivered securely.",
+      "Integrated several APIs & automated tasks to create a better interaction between the users and the webmaster.",
+      "Ranked 2nd on Google SERP for the keyword “Weekly Hindi Stories” in just 6 months by focusing only on on-page SEO with a page-load time of under 3 seconds.",
+      "Implemented Heat Maps and Advanced Analytics to get users Data and worked upon decreasing Bounce Rates and generated Leads by giving free eBooks."
+    ],
+    "technologies": ["HTML/CSS", "WordPress", "PHP", "MySQL", "APIs"],
+    "links": [
+      { "name": "View Website", "link": "https://www.talesforlife.com/" }
+    ]
+  }
 ]
