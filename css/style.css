@@ -1,5 +1,5 @@
 body {
-    background-color: #d1b289;
+    background-color: rgb(209, 178, 137);
     font-size: 62.5%;
 }
 
@@ -9,6 +9,13 @@ body {
     border-radius: 0;
     background-color: transparent;
     font-size: 1.4rem;
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-right: initial;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -34,6 +41,20 @@ body {
 .navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
     background-color: #d1b289;
     color: #3C2F1D;
+}
+
+.nav-img {
+    height: 3.8rem;
+    width: auto;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    margin: 0.8rem 0 0.8rem 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-img {
+        margin-left: 0;
+    }
 }
 
 .icon-bar {
