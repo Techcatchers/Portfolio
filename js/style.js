@@ -29,29 +29,30 @@ const skillAnimate = () => {
   const targets = document.querySelectorAll(".progress-bar");
 
   // configure the intersection observer instance
-  const intersectionObserverOptions = {
+  const config = {
     root: null,
     threshold: 1.0
   };
 
-  targets.forEach(target => {
-    const onIntersection = entries => {
-      //   console.log(entries)
-      entries.forEach(entry => {
-        // Are we in viewport?
-        if (entry.intersectionRatio > 0) {
-          target.classList.toggle("skill-visible");
-          // Stop watching
-          observer.unobserve(entry.target);
-        }
-      });
-    };
-    const observer = new IntersectionObserver(
-      onIntersection,
-      intersectionObserverOptions
-    );
+  const onIntersection = entries => {
+    //   console.log(entries)
+    entries.forEach(entry => {
+      // Are we in viewport?
+      if (entry.intersectionRatio > 0) {
+        entry.target.classList.toggle("skill-visible");
+        // Stop watching
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+  
+  const observer = new IntersectionObserver(
+    onIntersection,
+    config
+  );
 
-    // provice the observer with a target
+  // provice the observer with targets
+  targets.forEach(target => {
     observer.observe(target);
   });
 };
