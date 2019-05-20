@@ -465,6 +465,10 @@ footer a:focus {
         text-align: center;
         margin-bottom: 3rem;
     }
+
+    .about .details {
+        text-align: center;
+    }
     
     .contact {
         width: 100%;
