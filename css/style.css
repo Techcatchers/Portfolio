@@ -354,6 +354,20 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
     box-shadow: 3px 2px 5px rgb(121, 54, 9);
 }
 
+@media screen and (min-width: 1200px) {
+    /* show reverse by horizontal row */
+    .row {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    /* show reverse by horizontal row */
+    .row {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* show reverse by horizontal row */
     .row {
