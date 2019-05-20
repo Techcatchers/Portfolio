@@ -214,8 +214,7 @@ ul {
     font-size: 1.4rem;
     color: #fff;
     width: 30%;
-    margin: 5rem 1.5rem 4rem 1.5rem;
-    /* text-decoration: none; */
+    margin: 4rem 1.5rem;
     padding: 1rem 0.5rem;
     border-radius: 1.5rem;
 }
@@ -241,14 +240,7 @@ ul {
     width: 60%;
 }
 
-/* .detail-links:hover {
-    text-decoration: none;
-} */
-
 .web-template {
-    /* max-width: 100%;
-    height: auto;
-    width: 40rem; */
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -357,11 +349,18 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 @media screen and (min-width: 1200px) {
     /* show reverse by horizontal row */
     .row {
-        width: 80%;
+        width: 85%;
     }
 }
 
 @media screen and (min-width: 1600px) {
+    /* show reverse by horizontal row */
+    .row {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
     /* show reverse by horizontal row */
     .row {
         width: 70%;
