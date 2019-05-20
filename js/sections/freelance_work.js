@@ -1,10 +1,10 @@
 // Freelance Work Section
 const freelanceWork = data => {
-    let output = "";
+  let output = "";
 
-    for (let i = 0; i < data.length; i++) {
-        output += `
-        <div class="row ${i % 2 == 1 ? 'row-reverse' : ''}">
+  for (let i = 0; i < data.length; i++) {
+    output += `
+        <div class="row ${i % 2 == 1 ? "row-reverse" : ""}">
     <div class="col-md-5 col-sm-5 showcase">
       ${data[i].showcase}
     </div>
@@ -12,33 +12,37 @@ const freelanceWork = data => {
       <h2 class="sub-headings">${data[i].name}</h2>
       <p class="details">${data[i].intro}</p>
       <p class="details"><strong>About the Project</strong><br>
-      <ul>`
+      <ul>`;
 
-        data[i].features.forEach(feature => {
-            output += `<li>
+    data[i].features.forEach(feature => {
+      output += `<li>
             ${feature}
-          </li>`
-        })
+          </li>`;
+    });
 
-      output += `</ul></p>
-      <p class="details"><strong>Technologies</strong><br>`
-      
-      data[i].technologies.forEach((tech, index) => {
-          if (index != 0) {
-              output += ', '
-          }
-          output += `${tech}`
-      });
-      
-      output += `</p>
-      <a href="${data[i].links[0].link}" class="detail-links single btn-danger" target="_blank">${data[i].links[0].name}</a>
+    output += `</ul></p>
+      <p class="details"><strong>Technologies</strong><br>`;
+
+    data[i].technologies.forEach((tech, index) => {
+      if (index != 0) {
+        output += ", ";
+      }
+      output += `${tech}`;
+    });
+
+    output += `</p>
+      <a href="${
+        data[i].links[0].link
+      }" class="detail-links single btn-danger" target="_blank">${
+      data[i].links[0].name
+    }</a>
     </div>
   </div>
-        `
-    }
+        `;
+  }
 
-    // Add Web Templates section
-    output += `
+  // Add Web Templates section
+  output += `
     <div class="row">
     <h2 class="sub-headings"><strong>Web Templates</strong></h2>
     <div class="col-md-4 col-sm-4">
@@ -52,7 +56,9 @@ const freelanceWork = data => {
     </div>
 
     </div>
-    `
+    `;
 
-    document.querySelector('.freelance-work-section').insertAdjacentHTML('beforeend', output);
-}
+  document
+    .querySelector(".freelance-work-section")
+    .insertAdjacentHTML("beforeend", output);
+};
