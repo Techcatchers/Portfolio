@@ -266,7 +266,13 @@ ul {
 
 /* Single Button extends & overwrites detail links */
 .single {
-  width: 60%;
+  width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+    .single {
+        width: 80%;
+    }
 }
 
 .btn-blue {
