@@ -6,7 +6,7 @@ const blogs = data => {
     output += `
         <div class="col-md-4 col-sm-6">
           <div class="card-box">
-            <img data-src="${
+            <img src="${
               data[i].image
             }" alt="" srcset="" class="img" style="max-height: 180px; width: auto;">
             <h3 class="sub-headings"><a href="${

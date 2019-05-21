@@ -49,7 +49,7 @@
   {
     "name": "Lyrics Extractor: Python Library",
     "intro": "Get Lyrics for any songs by just passing in the song name (spelled or misspelled) in less than 2 seconds using this awesome Python Library.",
-    "showcase": "<img data-src=\"./images/py_lib.png\" class=\"img detail-img\" width=\"375\" height=\"212\" alt=\"\" \">",
+    "showcase": "<img src=\"./images/py_lib.png\" class=\"img detail-img\" width=\"375\" height=\"212\" alt=\"\" \">",
     "features": [
       "Artist name is not required while passing in the song name.",
       "If there are more then one song fetched with the same title than the most popular song is chosen among all.",
@@ -70,7 +70,7 @@
   {
     "name": "GitHub Finder",
     "intro": "The GitHub Finder web app fetches the user profiles & repos from GitHub API and displays it in a well-formatted manner.",
-    "showcase": "<img data-src=\"./images/github_finder.gif\" class=\"img detail-img\" alt=\"\" \">",
+    "showcase": "<img src=\"./images/github_finder.gif\" class=\"img detail-img\" alt=\"\" \">",
     "features": [
       "It searches for user profiles as you type but reduces unnecessary API calls using setTimeout() method. So API is only called when you have stopped typing your desired keyword.",
       "It fetches the 5 latest repos with stars, watchers, forks and other useful information to show the user's summary of GitHub.",
