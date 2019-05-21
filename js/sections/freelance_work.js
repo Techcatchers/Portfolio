@@ -33,7 +33,7 @@ const freelanceWork = data => {
     output += `</p>
       <a href="${
         data[i].links[0].link
-      }" class="detail-links single btn-danger" target="_blank">${
+      }" class="detail-links single btn-blue" target="_blank">${
       data[i].links[0].name
     }</a>
     </div>
@@ -44,7 +44,7 @@ const freelanceWork = data => {
   // Add Web Templates section
   output += `
     <div class="row">
-    <h2 class="sub-headings"><strong>Web Templates</strong></h2>
+    <h1 class="sub-headings">Web Templates</h1>
     <div class="col-md-4 col-sm-4">
       <img src="./images/photography.gif" alt="" class="img web-template">
     </div>

@@ -33,12 +33,12 @@ const liveProjects = data => {
     output += `</p>
       <a href="${
         data[i].links[0].link
-      }" class="detail-links btn-success" target="_blank">${
+      }" class="detail-links btn-blue" target="_blank">${
       data[i].links[0].name
     }</a>
       <a href="${
         data[i].links[1].link
-      }" class="detail-links btn-primary" target="_blank">${
+      }" class="detail-links btn-purple" target="_blank">${
       data[i].links[1].name
     }</a>
     </div>

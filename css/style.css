@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(209, 178, 137);
+  background-color: rgb(207, 215, 233);
   font-size: 62.5%;
 }
 
@@ -20,13 +20,13 @@ body {
 
 @media screen and (max-width: 480px) {
   .navbar {
-    background-color: rgba(60, 47, 29, 0.7);
+    background-color: rgba(10, 36, 99, 0.7);
   }
 }
 
 .navbar.scrolled {
-  background-color: #3c2f1d !important;
-  transition: background-color 200ms linear;
+  background-color: #0A2463 !important;
+  transition: background-color 1s linear;
 }
 
 .navbar-toggle {
@@ -40,8 +40,8 @@ body {
 /* Change bgcolor and font color on navbar hover */
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-  background-color: #d1b289;
-  color: #3c2f1d;
+  background-color: rgb(207, 215, 233);
+  color: #0A2463;
 }
 
 .nav-img {
@@ -84,7 +84,7 @@ body {
 .jumbotron {
   height: 100vh;
   padding-top: 25vh;
-  background-color: #3c2f1d;
+  background-color: #0A2463;
   color: #fff;
   font-family: "Bree Serif";
 }
@@ -127,6 +127,7 @@ a:focus {
   padding: 1rem 1.5rem;
   color: #fff;
   border: 2px solid #ddd;
+  border-radius: 2rem;
   /* z-index: 10002; */
 }
 
@@ -156,10 +157,10 @@ a:focus {
 
 .headings {
   margin-top: 1rem;
-  background-color: rgb(109, 85, 53);
+  background-color: #0A2463;
   font-weight: 575;
   padding: 1.5rem;
-  color: #e5e5e5;
+  color: #fff;
   text-align: center;
   font-family: "Bree Serif";
 }
@@ -268,6 +269,28 @@ ul {
   width: 60%;
 }
 
+.btn-blue {
+    background-color: #004DE5;
+}
+
+.btn-blue:hover {
+    color: #fff;
+    background-color: rgb(1, 54, 160);
+}
+
+.btn-purple {
+    background-color: #9900E6;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: rgb(107, 0, 160);
+}
+
+.btn-purple:focus, .btn-blue:focus {
+    color: #fff;
+}
+
 .web-template {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -303,11 +326,12 @@ ul {
 }
 
 .progress {
-  background-color: rgb(241, 231, 229);
+  background-color: rgb(237, 240, 245);
 }
 
 .progress-bar {
   width: 0;
+  color: #0A2463;
 }
 
 .skill-visible {
@@ -331,7 +355,7 @@ ul {
   margin-top: 3rem;
   margin-bottom: 3rem;
   height: 40rem;
-  background-color: #f5efe7;
+  background-color: rgb(237, 240, 245);
 }
 
 @media screen and (max-width: 768px) {
@@ -422,7 +446,7 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 .arrow {
   -webkit-clip-path: polygon(50% 99%, 100% 60%, 100% 100%, 0 100%, 0 60%);
   clip-path: polygon(50% 99%, 100% 60%, 100% 100%, 0 100%, 0 60%);
-  background-color: #3c2f1d;
+  background-color: #0A2463;
   height: 20rem;
   margin-top: -10rem;
 }
@@ -437,7 +461,7 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 /* Add a gray background color and some padding to the footer */
 footer {
   margin-top: -0.1rem;
-  background-color: #3c2f1d;
+  background-color: #0A2463;
   padding: 0 10rem !important;
   padding-bottom: 2rem !important;
   color: #fff;
