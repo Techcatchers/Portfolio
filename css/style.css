@@ -120,7 +120,7 @@ a:focus {
 .intro-links {
   display: inline-block;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   width: 20%;
   margin: 3rem 1.5rem;
   /* text-decoration: none; */
@@ -131,14 +131,14 @@ a:focus {
   /* z-index: 10002; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 972px) {
   .intro-links {
     width: 30%;
     margin: 1.2rem;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 670px) {
   .intro-links {
     width: 70%;
     margin: 1.2rem;
@@ -153,6 +153,12 @@ a:focus {
 
 .intro-links:visited {
   color: #fff;
+}
+
+.top-icon {
+  padding-right: 1.5rem;
+  font-size: 2rem;
+  vertical-align: middle;
 }
 
 .headings {
