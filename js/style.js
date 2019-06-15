@@ -38,7 +38,8 @@ const skillAnimate = () => {
     //   console.log(entries)
     entries.forEach(entry => {
       // Are we in viewport?
-      if (entry.intersectionRatio > 0) {
+      // Bug in Intersection Observer API so dodging it temporarily
+      if (entry.intersectionRatio >= 0) {
         entry.target.classList.toggle("skill-visible");
         // Stop watching
         observer.unobserve(entry.target);
