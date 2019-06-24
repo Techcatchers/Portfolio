@@ -370,6 +370,10 @@ ul {
   background-color: rgb(237, 240, 245);
 }
 
+.card-box .sub-headings:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   .card-box {
     height: initial;
