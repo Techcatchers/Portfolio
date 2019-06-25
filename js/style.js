@@ -24,49 +24,6 @@ document.addEventListener("scroll", () => {
     .catch(err => console.log(err));
 })();
 
-// Skills Animation
-const skillAnimate = () => {
-  const targets = document.querySelectorAll(".progress-bar");
-
-  // configure the intersection observer instance
-  const config = {
-    root: null,
-    threshold: 1.0
-  };
-
-  const onIntersection = entries => {
-    //   console.log(entries)
-    entries.forEach(entry => {
-      // Are we in viewport?
-      // Bug in Intersection Observer API so dodging it temporarily
-      if (entry.intersectionRatio >= 0) {
-        entry.target.classList.toggle("skill-visible");
-        // Stop watching
-        observer.unobserve(entry.target);
-      }
-    });
-  };
-  
-  const observer = new IntersectionObserver(
-    onIntersection,
-    config
-  );
-
-  // provice the observer with targets
-  targets.forEach(target => {
-    observer.observe(target);
-  });
-};
-
-// Skills
-(() => {
-  fetch("./data/skills.json")
-    .then(res => res.json())
-    .then(response => skills(response))
-    .then(skillAnimate)
-    .catch(err => console.log(err));
-})();
-
 // My Blogs Section
 (() => {
   fetch("./data/blogs.json")

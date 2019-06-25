@@ -309,53 +309,23 @@ ul {
 }
 
 .skills-section {
-  padding: 3rem 4rem;
-  text-align: left !important;
-  font-size: 1.6rem;
+  padding: 2rem 0;
+}
+
+.skills-section img {
+  height: auto;
+  width: 80%;
 }
 
 @media screen and (max-width: 768px) {
-  .skills-section {
-    padding: 5rem;
+  .skills-section img {
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .skills-section {
-    padding: 4rem 1.5rem;
-  }
-}
-
-/* Adds Extra Padding in between skill cols */
-.skill-sep {
-  padding: 0 3rem;
-}
-
-@media screen and (max-width: 768px) {
-  .skill-sep {
-    padding: 0 1.5rem;
-  }
-}
-
-.progress {
-  background-color: rgb(237, 240, 245);
-}
-
-.progress-bar {
-  width: 0;
-  color: #0A2463;
-}
-
-.skill-visible {
-  animation: progress 1.5s ease-in-out forwards;
-}
-
-@keyframes progress {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
+    padding: 2rem 0;
   }
 }
 
