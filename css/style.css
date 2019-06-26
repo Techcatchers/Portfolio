@@ -314,18 +314,18 @@ ul {
 
 .skills-section img {
   height: auto;
-  width: 80%;
+  width: 85%;
 }
 
 @media screen and (max-width: 768px) {
   .skills-section img {
-    width: 95%;
+    width: 98%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .skills-section {
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
 }
 
