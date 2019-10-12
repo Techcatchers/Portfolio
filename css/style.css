@@ -25,7 +25,7 @@ body {
 }
 
 .navbar.scrolled {
-  background-color: #0A2463 !important;
+  background-color: #0a2463 !important;
   transition: background-color 1s linear;
 }
 
@@ -41,7 +41,7 @@ body {
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
   background-color: rgb(207, 215, 233);
-  color: #0A2463;
+  color: #0a2463;
 }
 
 .nav-img {
@@ -84,7 +84,7 @@ body {
 .jumbotron {
   height: 100vh;
   padding-top: 25vh;
-  background-color: #0A2463;
+  background-color: #0a2463;
   color: #fff;
   font-family: "Bree Serif";
 }
@@ -163,7 +163,7 @@ a:focus {
 
 .headings {
   margin-top: 1rem;
-  background-color: #0A2463;
+  background-color: #0a2463;
   font-weight: 575;
   padding: 1.5rem;
   color: #fff;
@@ -276,31 +276,32 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-    .single {
-        width: 80%;
-    }
+  .single {
+    width: 80%;
+  }
 }
 
 .btn-blue {
-    background-color: #004DE5;
+  background-color: #004de5;
 }
 
 .btn-blue:hover {
-    color: #fff;
-    background-color: rgb(1, 54, 160);
+  color: #fff;
+  background-color: rgb(1, 54, 160);
 }
 
 .btn-purple {
-    background-color: #9900E6;
+  background-color: #9900e6;
 }
 
 .btn-purple:hover {
-    color: #fff;
-    background-color: rgb(107, 0, 160);
+  color: #fff;
+  background-color: rgb(107, 0, 160);
 }
 
-.btn-purple:focus, .btn-blue:focus {
-    color: #fff;
+.btn-purple:focus,
+.btn-blue:focus {
+  color: #fff;
 }
 
 .web-template {
@@ -381,7 +382,7 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
   margin-top: 1rem;
   margin-bottom: 4rem;
   width: 90%;
-  box-shadow: 3px 2px 5px #0A2463;
+  box-shadow: 3px 2px 5px #0a2463;
 }
 
 @media screen and (min-width: 1200px) {
@@ -432,7 +433,7 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 .arrow {
   -webkit-clip-path: polygon(50% 99%, 100% 60%, 100% 100%, 0 100%, 0 60%);
   clip-path: polygon(50% 99%, 100% 60%, 100% 100%, 0 100%, 0 60%);
-  background-color: #0A2463;
+  background-color: #0a2463;
   height: 20rem;
   margin-top: -10rem;
 }
@@ -447,7 +448,7 @@ clip-path: polygon(50% 100%, 100% 85%, 100% 100%, 0 100%, 0 85%); */
 /* Add a gray background color and some padding to the footer */
 footer {
   margin-top: -0.1rem;
-  background-color: #0A2463;
+  background-color: #0a2463;
   padding: 0 10rem !important;
   padding-bottom: 2rem !important;
   color: #fff;
